@@ -21,9 +21,9 @@ Resource: https://www.rodsbooks.com/refind/bootcoup.html
 
 These were the steps from the doc followed :
 
-*Open a Terminal window in which you'll type the following commands.
+*Open a Terminal window in which you'll type the following commands.*
 
-*If rEFInd is installed on your ESP, you must first mount it. The easy way to do this is to use the mountesp script that comes with rEFInd. When you run it, the script should tell you where the ESP was mounted. You can do the job manually by typing mkdir /Volumes/ESP followed by sudo mount -t msdos /dev/disk0s1 /Volumes/ESP. Note that you may need to change /dev/disk0s1 to something else if your ESP is at an unusual location. Type diskutil list or use a tool such as my GPT fdisk (gdisk) to examine your partition table to find your ESP if necessary.
+*If rEFInd is installed on your ESP, you must first mount it. The easy way to do this is to use the mountesp script that comes with rEFInd. When you run it, the script should tell you where the ESP was mounted. You can do the job manually by typing mkdir /Volumes/ESP followed by sudo mount -t msdos /dev/disk0s1 /Volumes/ESP. Note that you may need to change /dev/disk0s1 to something else if your ESP is at an unusual location. Type diskutil list or use a tool such as my GPT fdisk (gdisk) to examine your partition table to find your ESP if necessary.*
 
 *"Bless" rEFInd by typing one of the following two commands:
 If rEFInd is installed on the ESP, type sudo bless --mount /Volumes/ESP --setBoot --file /Volumes/ESP/efi/refind/refind_x64.efi --shortform, adjusting the mount point and exact path to the file as appropriate for your installation.*
