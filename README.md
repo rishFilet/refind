@@ -1,3 +1,6 @@
+# refind repo
+https://sourceforge.net/projects/refind/files/latest/download
+
 # refind
 Boot manager installation and script for handling boot coups. Used with dual booting linux and mac
 
